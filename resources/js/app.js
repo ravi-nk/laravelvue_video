@@ -21,6 +21,7 @@ window.Vue = require('vue');
 
 // Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 Vue.component('admin_dashboard', require('./components/admin/dashboard.vue').default);
+Vue.component('admin_add_item', require('./components/admin/add_item.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to

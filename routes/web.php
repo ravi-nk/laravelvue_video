@@ -23,7 +23,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/logout','HomeController@logout')->name('logout');
 Route::get('admin/dashboard','HomeController@handleAdmin')->name('admin.dashboard')->middleware('admin');
 
-Route::get('/admin/add_item', 'Admin/AdminController@add_item')->name('admin.add_item');
+Route::get('/admin/add_item', 'Admin\AdminController@add_item')->name('admin.add_item');
 
 Route::get('/admin/login','Admin\AdminController@login');
 
